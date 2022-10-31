@@ -1,10 +1,12 @@
+import EarthLogo from "../images/earth.svg";
 import "./Header.css";
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header section</h1>
-    </div>
+    <navbar className="navbar">
+      <img className="nav-logo" src={EarthLogo}></img>
+      <p className="nav-text">my travel journal.</p>
+    </navbar>
   );
 };
 
