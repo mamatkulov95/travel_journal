@@ -1,0 +1,55 @@
+.card-section {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.travel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.travel-photo {
+  height: 300px;
+}
+
+.travel-location {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.location-logo {
+  height: 15px;
+  width: 12px;
+}
+
+.travel-country {
+  font-family: 'Inter';
+  letter-spacing: 0.17em;
+  font-size: 20px;
+}
+
+.travel-map {
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.travel-place {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  margin: 5px 0;
+}
+
+.travel-date {
+  font-weight: 700;
+}
+
+.travel-place-description {
+  font-family: 'Inter';
+  line-height: 150%;
+}
