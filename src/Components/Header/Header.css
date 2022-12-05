@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px;
+  background-color: #F55A5A;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-text {
+  font-weight: 500;
+  color: #FFFFFF;
+}
